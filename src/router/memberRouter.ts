@@ -1,6 +1,6 @@
 import express from 'express';
-import upload from '../middleware/membercloud'
-import MemberController from '../controller/memberController';
+import upload from '../middleware/membercloud.ts'
+import MemberController from '../controller/memberController.ts';
 
 const router = express.Router();
 

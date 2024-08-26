@@ -5,12 +5,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/server.ts",
-    "build": "babel src -d dist --extensions \".ts\""
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "body-parser": "^1.20.2",
     "cloudinary": "^2.4.0",
@@ -31,5 +30,6 @@
     "@types/node": "^22.5.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"
-  }
+  },
+  "description": ""
 }

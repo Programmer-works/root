@@ -1,5 +1,5 @@
 import express,{Router} from "express"
-import memberRoutes from "../router/memberRouter"
+import memberRoutes from "../router/memberRouter.ts"
 
 
 const router:Router=express.Router()
