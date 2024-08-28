@@ -10,6 +10,7 @@ router.get('/:id',MemberController.getOneMember);
 router.delete('/:id', MemberController.deleteMember);
 router.delete('/', MemberController.deleteMembers);
 router.put('/:id', MemberController.updateMember);
+router.post('/login',MemberController.Login)
 
 export default router;
 
