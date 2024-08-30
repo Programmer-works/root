@@ -6,6 +6,6 @@ const router = express.Router();
 
 router.post('/',upload.single('studentReport'),StudentController.create)
 router.get('/view',StudentController.viewStudents)
-router.put('/',StudentController.updateStudent)
-router.delete('/',StudentController.deleteStusdent)
+router.put('/:id',StudentController.updateStudent)
+router.delete('/:id',StudentController.deleteStusdent)
 export default router
